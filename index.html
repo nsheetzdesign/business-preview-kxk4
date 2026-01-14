@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Business - Quality Service You Can Trust</title>
+    <script src="https://cdn.tailwindcss.com/3.4.1"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- Sticky Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <h1 class="text-xl md:text-2xl font-bold text-blue-900">Local Business</h1>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#services" class="text-gray-700 hover:text-blue-600 transition">Services</a>
+                    <a href="#about" class="text-gray-700 hover:text-blue-600 transition">About</a>
+                    <a href="#contact" class="text-gray-700 hover:text-blue-600 transition">Contact</a>
+                </div>
+                <button class="md:hidden text-gray-700" id="mobile-menu-btn">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="md:hidden hidden mt-3 pb-2" id="mobile-menu">
+                <a href="#services" class="block py-2 text-gray-700 hover:text-blue-600">Services</a>
+                <a href="#about" class="block py-2 text-gray-700 hover:text-blue-600">About</a>
+                <a href="#contact" class="block py-2 text-gray-700 hover:text-blue-600">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-16 md:py-24">
+        <div class="container mx-auto px-4 text-center">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl md:text-5xl font-bold mb-6">Quality Service You Can Trust</h2>
+                <p class="text-lg md:text-xl mb-8 text-blue-100">Your trusted local business partner, serving the community with excellence and reliability</p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#contact" class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">Get In Touch</a>
+                    <a href="#services" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition">Our Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">We provide comprehensive solutions tailored to meet your needs</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6 rounded-lg bg-gray-50 hover:shadow-lg transition">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">🔧</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-900">Professional Service</h3>
+                    <p class="text-gray-600">Expert solutions delivered with precision and care for every project</p>
+                </div>
+                <div class="text-center p-6 rounded-lg bg-gray-50 hover:shadow-lg transition">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">⭐</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-900">Quality Guarantee</h3>
+                    <p class="text-gray-600">We stand behind our work with a commitment to excellence and customer satisfaction</p>
+                </div>
+                <div class="text-center p-6 rounded-lg bg-gray-50 hover:shadow-lg transition">
+                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">🏠</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-900">Local Expertise</h3>
+                    <p class="text-gray-600">Deep understanding of local needs and community-focused service approach</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">About Us</h2>
+                        <p class="text-lg text-gray-600 mb-4">We are your trusted local business partner, dedicated to providing exceptional service to our community. Our commitment to quality and reliability has made us a preferred choice for local customers.</p>
+                        <p class="text-lg text-gray-600 mb-6">With a focus on professional excellence and customer satisfaction, we take pride in delivering solutions that exceed expectations every time.</p>
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <div class="text-center sm:text-left">
+                                <div class="text-2xl font-bold text-blue-600">Professional</div>
+                                <div class="text-gray-600">Service Quality</div>
+                            </div>
+                            <div class="text-center sm:text-left">
+                                <div class="text-2xl font-bold text-green-600">Reliable</div>
+                                <div class="text-gray-600">Local Support</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg h-80 flex items-center justify-center">
+                        <span class="text-6xl">🏢</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
+                    <p class="text-lg text-gray-600">Ready to work together? Contact us today for professional service you can trust</p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-6 text-gray-900">Contact Information</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                                    <span class="text-blue-600">📞</span>
+                                </div>
+                                <div>
+                                    <div class="font-medium text-gray-900">Phone</div>
+                                    <div class="text-gray-600">(555) 123-4567</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                                    <span class="text-green-600">✉️</span>
+                                </div>
+                                <div>
+                                    <div class="font-medium text-gray-900">Email</div>
+                                    <div class="text-gray-600">contact@localbusiness.com</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mr-4">
+                                    <span class="text-purple-600">📍</span>
+                                </div>
+                                <div>
+                                    <div class="font-medium text-gray-900">Location</div>
+                                    <div class="text-gray-600">Local Area</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <form class="space-y-6">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Name</label>
+                                <input type="text" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your name">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                                <input type="email" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="your@email.com">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                                <textarea rows="4" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="How can we help you?"></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition font-semibold">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mb-2">&copy; 2026 Local Business. All rights reserved.</p>
+            <p class="text-sm text-gray-400">Preview site by Nick Sheetz</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
